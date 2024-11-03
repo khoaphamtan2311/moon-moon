@@ -1,0 +1,116 @@
+#root {
+  margin: 0 auto;
+
+  text-align: center;
+  overflow: hidden;
+}
+
+:root {
+  /* Hide scrollbars globally */
+  --hide-scrollbar: none;
+}
+
+body,
+html {
+  /* Apply hidden scrollbar properties */
+  overflow-y: scroll;
+  -ms-overflow-style: var(--hide-scrollbar); /* IE and Edge */
+  scrollbar-width: var(--hide-scrollbar); /* Firefox */
+}
+
+::-webkit-scrollbar {
+  display: var(--hide-scrollbar); /* Chrome, Safari, and Opera */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.vast-shadow-regular {
+  font-family: "Vast Shadow", serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.puppies-play-regular {
+  font-family: "Puppies Play", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.league-gothic-regular {
+  font-family: "League Gothic", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.bungee-tint-regular {
+  font-family: "Bungee Tint", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.srisakdi-regular {
+  font-family: "Srisakdi", system-ui !important;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.srisakdi-bold {
+  font-family: "Srisakdi", system-ui !important;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.playwrite-it-trad-normal {
+  font-family: "Playwrite IT Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
